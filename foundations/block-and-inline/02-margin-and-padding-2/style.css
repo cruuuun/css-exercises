@@ -7,14 +7,39 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title,
-.content,
+.content {
+  background: dodgerblue;
+  padding: 16px;
+  font-size: 16px;
+  margin: 16px;
+  color: black;
+}
+
+.title {
+  font-weight: bold;
+}
+
 .button-container {
   background: dodgerblue;
+  padding: 16px;
+  font-size: 16px;
+  margin: 16px;
+  text-align: center; /* Centers the button horizontally */
 }
 
 button {
   background: white;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+  border: 2px solid black; /* Gives it the distinct border look */
 }
